@@ -5,6 +5,14 @@ import{getFirestore, getDoc, doc} from "https://www.gstatic.com/firebasejs/10.11
 const firebaseConfig = {
     //YOUR COPIED FIREBASE PART SHOULD BE HERE
  //WATCH THIS VIDEO TO LEARN WHAT TO PUT HERE   https://youtu.be/_Xczf06n6x0
+ const firebaseConfig = {
+    apiKey: "AIzaSyDtR6BJwe-CVsyq9I0z2fC2wQXTga_fsAk",
+ authDomain: "ideathon-216ad.firebaseapp.com",
+ projectId: "ideathon-216ad",
+ storageBucket: "ideathon-216ad.appspot.com",
+ messagingSenderId: "25886111093",
+ appId: "1:25886111093:web:3404260d088fa7c8bbcf3c"
+  };
   };
  
   // Initialize Firebase
@@ -28,7 +36,7 @@ const firebaseConfig = {
 
             }
             else{
-                console.log("no document found matching id")
+                // console.log("no document found matching id")
             }
         })
         .catch((error)=>{
